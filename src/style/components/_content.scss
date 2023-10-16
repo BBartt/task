@@ -1,0 +1,17 @@
+.content {
+  // position: relative;
+
+  -moz-box-flex: 1;
+  flex: 1 1;
+  background: #d3d3d3;
+  display: -moz-box;
+  display: flex;
+  -moz-box-orient: vertical;
+  flex-direction: column;
+
+  -moz-box-align: stretch;
+  align-items: stretch;
+  align-content: stretch;
+  -moz-box-direction: normal;
+  height: 100%;
+}
