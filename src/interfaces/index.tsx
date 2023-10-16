@@ -9,7 +9,7 @@ export interface ProjectData {
   };
 }
 
-interface Item {
+export interface Item {
   id: string;
   type: string;
   color: string;
